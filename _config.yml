@@ -36,7 +36,6 @@ kramdown:
   enable_coderay: false
 
 # Outputting
-permalink: /:categories/:title/
 paginate: 11 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Asia/Singapore" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -108,8 +107,18 @@ defaults:
       classes: wide
 
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
