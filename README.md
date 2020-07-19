@@ -1,2 +1,3 @@
-# Tien Le's Personal Blog
-This is my personal blog using [Jekyll](https://jekyllrb.com) and [Github Pages](https://pages.github.com/).
+## Tien Le's personal blog
+
+This blog is to keep all learning journey, and thinking, sharing as part of my memories.

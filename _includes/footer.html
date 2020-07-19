@@ -1,0 +1,22 @@
+<div class="row" style="display: flex">
+  <div class="column" style="flex: 30%">
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        {% if site.footer.links %}
+          {% for link in site.footer.links %}
+            {% if link.label and link.url %}
+              <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+
+    <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  </div>
+  <div class="column" style="text-align: right">
+    <div class="page__footer-copyright"><a href="/tags/" rel="nofollow">Tags</a></div>
+    <div class="page__footer-copyright"><a href="/categories/" rel="nofollow">Categories</a></div>
+    <div class="page__footer-copyright"><a href="/posts/" rel="nofollow">Posts by Year</a></div>
+  </div>
+</div>
