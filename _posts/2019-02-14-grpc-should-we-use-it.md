@@ -3,8 +3,6 @@ title: "What is gRPC? Should we use it?"
 categories:
   - Backend
 tags:
-  - RPC
-  - gRPC
   - microservices
   - protocol
 ---
