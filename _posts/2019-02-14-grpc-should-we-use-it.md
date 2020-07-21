@@ -1,8 +1,9 @@
 ---
 title: "What is gRPC? Should we use it?"
 categories:
-  - Backend
+  - Software-Development
 tags:
+  - backend
   - microservices
   - protocol
 ---

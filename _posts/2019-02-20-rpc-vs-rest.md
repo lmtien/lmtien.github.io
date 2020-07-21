@@ -1,8 +1,9 @@
 ---
 title: "RPC vs REST"
 categories:
-  - Backend
+  - Software-Development
 tags:
+  - backend
   - microservices
   - protocol
 ---
