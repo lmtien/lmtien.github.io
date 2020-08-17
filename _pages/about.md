@@ -47,6 +47,6 @@ That four stages help me to overcome and find the right solution to many problem
 # Contact Me
 It'd be cool to meet as fellow techies, discuss ideas, and potentially work on some interesting projects together in the future. Hope this sounds interesting to you. If so, I would love to have a chat with you over coffee or over a Zoom/Hangouts call? If coffee, my treat.
 
-If you’d like to find out a bit more detail about me and where I’ve worked, you can take a look over on my [LinkedIn profile](https://www.linkedin.com/in/lmtien).
+If you’d like to find out a bit more detail about me and where I’ve worked, you can take a look over on my [online resume](https://hire.imtien.com/) or my [LinkedIn profile](https://www.linkedin.com/in/lmtien).
 
 Please feel free to send me [an email](mailto:dev@imtien.com) if you have any feedback or questions.
