@@ -20,7 +20,7 @@ While most of my experience has been writing back-end code, I’ve also got expe
 ## Quick learning ability
 Together with my passion for computer programming, I am hungry for knowledge and having strong desire to utilize this knowledge towards the betterment of the society.
 
-I always learning new things because I want to find the best version of myself. I have the ability to teach myself new languages and technologies quickly and often do so out of personal interest outside of work.
+I'm always learning new things because I want to find the best version of myself. I have the ability to teach myself new languages and technologies quickly and often do so out of personal interest outside of work.
 
 I believe every programmer (myself included) will experience a situation where he or she doesn’t know the answer; for me, I will find different resources, talk to the right people, and find the solution no matter what.
 
@@ -45,7 +45,7 @@ That four stages help me to overcome and find the right solution to many problem
 ---
 
 # Contact Me
-It'd be cool to meet as fellow techies, discuss ideas, and potentially work on some interesting projects together in the future. Hope this sounds interesting to you. If so, I would love to have a chat with you over coffee or over a Zoom/Hangouts call? If coffee, my treat.
+It'd be cool to meet fellow techies, discuss ideas, and potentially work on some interesting projects together in the future. Hope this sounds interesting to you. If so, I would love to have a chat with you over coffee or over a Zoom/Hangouts call? If coffee, my treat.
 
 If you’d like to find out a bit more detail about me and where I’ve worked, you can take a look over on my [online resume](https://hire.imtien.com/) or my [LinkedIn profile](https://www.linkedin.com/in/lmtien).
 
