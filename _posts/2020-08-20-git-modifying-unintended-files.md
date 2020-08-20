@@ -1,5 +1,5 @@
 ---
-title: "Solution for git modifying files unintendedly"
+title: "Solution for git modifying unintended files"
 categories:
   - Software-Development
 tags:
