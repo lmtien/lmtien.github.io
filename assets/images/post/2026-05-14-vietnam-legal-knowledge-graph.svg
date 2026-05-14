@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Vietnam legal knowledge graph</title>
+  <desc id="desc">A graph showing how courts, cases, legal domains, and laws connect in a Vietnamese legal knowledge graph.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7dd3fc"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="620" rx="18" fill="#0f172a"/>
+  <g opacity="0.28">
+    <circle cx="160" cy="130" r="70" fill="#0ea5e9"/>
+    <circle cx="930" cy="500" r="90" fill="#f97316"/>
+    <circle cx="880" cy="120" r="55" fill="#22c55e"/>
+  </g>
+
+  <text x="70" y="74" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Vietnam legal knowledge graph</text>
+  <text x="70" y="112" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Cases become the bridge between courts, legal domains, and the laws they rely on.</text>
+
+  <g stroke="#7dd3fc" stroke-width="3" fill="none" marker-end="url(#arrow)" opacity="0.95">
+    <path d="M310 240 C390 190, 455 190, 535 242"/>
+    <path d="M310 375 C390 430, 455 430, 535 378"/>
+    <path d="M640 310 C724 225, 800 218, 890 238"/>
+    <path d="M640 310 C725 385, 800 404, 890 376"/>
+    <path d="M640 310 C735 310, 805 310, 900 310"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g>
+      <circle cx="220" cy="230" r="78" fill="#f97316"/>
+      <text x="220" y="222" text-anchor="middle" fill="#111827" font-size="24" font-weight="700">Court</text>
+      <text x="220" y="252" text-anchor="middle" fill="#431407" font-size="15">decides a case</text>
+    </g>
+    <g>
+      <circle cx="220" cy="390" r="78" fill="#f9a8d4"/>
+      <text x="220" y="382" text-anchor="middle" fill="#111827" font-size="24" font-weight="700">Domain</text>
+      <text x="220" y="412" text-anchor="middle" fill="#500724" font-size="15">groups similar cases</text>
+    </g>
+    <g>
+      <circle cx="590" cy="310" r="94" fill="#22d3ee"/>
+      <text x="590" y="304" text-anchor="middle" fill="#0f172a" font-size="28" font-weight="700">Case</text>
+      <text x="590" y="336" text-anchor="middle" fill="#164e63" font-size="15">facts, reasoning, decision</text>
+    </g>
+    <g>
+      <circle cx="970" cy="230" r="70" fill="#a7f3d0"/>
+      <text x="970" y="224" text-anchor="middle" fill="#052e16" font-size="23" font-weight="700">Law</text>
+      <text x="970" y="252" text-anchor="middle" fill="#14532d" font-size="15">based on</text>
+    </g>
+    <g>
+      <circle cx="970" cy="390" r="70" fill="#a7f3d0"/>
+      <text x="970" y="384" text-anchor="middle" fill="#052e16" font-size="23" font-weight="700">Law</text>
+      <text x="970" y="412" text-anchor="middle" fill="#14532d" font-size="15">referenced by</text>
+    </g>
+    <g>
+      <circle cx="1000" cy="310" r="54" fill="#bbf7d0"/>
+      <text x="1000" y="304" text-anchor="middle" fill="#052e16" font-size="19" font-weight="700">Code</text>
+      <text x="1000" y="329" text-anchor="middle" fill="#14532d" font-size="13">article set</text>
+    </g>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#e2e8f0" font-size="16">
+    <text x="377" y="196">decide</text>
+    <text x="370" y="454">belong-to</text>
+    <text x="730" y="204">based-on</text>
+    <text x="725" y="440">based-on</text>
+    <text x="735" y="300">based-on</text>
+  </g>
+
+  <g transform="translate(70 520)" font-family="Arial, sans-serif">
+    <rect width="960" height="54" rx="10" fill="#111827" stroke="#334155"/>
+    <text x="24" y="34" fill="#cbd5e1" font-size="17">Graph idea: use shared courts, domains, and laws as paths to find related cases and relevant legal documents.</text>
+  </g>
+</svg>
