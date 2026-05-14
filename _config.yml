@@ -8,6 +8,7 @@ minimal_mistakes_skin: dark
 locale: "en-US"
 title: "I'm Tien"
 description: "Tien Le's personal blog which shares all learning journey, ideas, thoughts, engineering, business, how-to etc."
+repository: "lmtien/lmtien.github.io"
 words_per_minute: 150
 search: true
 search_full_content: true
@@ -50,6 +51,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
 
 # Plugins (previously gems:)
 plugins:
