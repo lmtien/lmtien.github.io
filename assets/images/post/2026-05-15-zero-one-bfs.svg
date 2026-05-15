@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">0-1 BFS with a deque</title>
+  <desc id="desc">A diagram showing a graph with zero-cost and one-cost edges, and how zero-cost edges go to the front of a deque while one-cost edges go to the back.</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="20" fill="#0f172a"/>
+  <rect x="48" y="42" width="1024" height="556" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="78" y="92" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">0-1 BFS: BFS with a tiny priority lane</text>
+  <text x="78" y="128" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">When every edge costs either 0 or 1, a deque can replace Dijkstra's priority queue.</text>
+
+  <g transform="translate(86 176)">
+    <text x="0" y="0" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="700">Graph</text>
+
+    <g stroke-width="4" fill="none">
+      <path d="M72 126 C122 62, 196 52, 250 116" stroke="#38bdf8" marker-end="url(#arrow-blue)"/>
+      <path d="M78 145 C143 188, 196 198, 254 160" stroke="#f59e0b" marker-end="url(#arrow-amber)"/>
+      <path d="M314 126 C378 78, 450 80, 512 132" stroke="#f59e0b" marker-end="url(#arrow-amber)"/>
+      <path d="M318 158 C380 216, 452 214, 514 158" stroke="#38bdf8" marker-end="url(#arrow-blue)"/>
+      <path d="M578 142 C650 142, 712 142, 780 142" stroke="#f59e0b" marker-end="url(#arrow-amber)"/>
+    </g>
+
+    <g font-family="Arial, sans-serif" font-size="16" font-weight="700">
+      <text x="158" y="58" fill="#38bdf8">cost 0</text>
+      <text x="150" y="220" fill="#fbbf24">cost 1</text>
+      <text x="404" y="72" fill="#fbbf24">cost 1</text>
+      <text x="402" y="224" fill="#38bdf8">cost 0</text>
+      <text x="662" y="128" fill="#fbbf24">cost 1</text>
+    </g>
+
+    <g filter="url(#shadow)" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+      <circle cx="56" cy="142" r="42" fill="#f8fafc"/>
+      <text x="56" y="152" text-anchor="middle" fill="#0f172a">A</text>
+      <circle cx="292" cy="142" r="42" fill="#bae6fd"/>
+      <text x="292" y="152" text-anchor="middle" fill="#082f49">B</text>
+      <circle cx="554" cy="142" r="42" fill="#fef3c7"/>
+      <text x="554" y="152" text-anchor="middle" fill="#451a03">C</text>
+      <circle cx="826" cy="142" r="42" fill="#dcfce7"/>
+      <text x="826" y="152" text-anchor="middle" fill="#052e16">D</text>
+    </g>
+  </g>
+
+  <g transform="translate(86 455)" font-family="Arial, sans-serif">
+    <text x="0" y="0" fill="#e2e8f0" font-size="18" font-weight="700">Deque rule</text>
+    <rect x="0" y="24" width="948" height="86" rx="12" fill="#0b1120" stroke="#334155"/>
+    <g transform="translate(36 48)">
+      <rect x="0" y="0" width="160" height="42" rx="8" fill="#bae6fd"/>
+      <text x="80" y="28" text-anchor="middle" fill="#082f49" font-size="17" font-weight="700">edge cost 0</text>
+      <text x="198" y="27" fill="#cbd5e1" font-size="18">push_front</text>
+      <path d="M310 20 H382" stroke="#38bdf8" stroke-width="4" marker-end="url(#arrow-blue)"/>
+      <rect x="410" y="0" width="90" height="42" rx="8" fill="#1e293b" stroke="#38bdf8"/>
+      <text x="455" y="28" text-anchor="middle" fill="#e0f2fe" font-size="17">front</text>
+    </g>
+    <g transform="translate(586 48)">
+      <rect x="0" y="0" width="160" height="42" rx="8" fill="#fef3c7"/>
+      <text x="80" y="28" text-anchor="middle" fill="#451a03" font-size="17" font-weight="700">edge cost 1</text>
+      <text x="198" y="27" fill="#cbd5e1" font-size="18">push_back</text>
+      <path d="M300 20 H342" stroke="#f59e0b" stroke-width="4" marker-end="url(#arrow-amber)"/>
+    </g>
+  </g>
+</svg>
