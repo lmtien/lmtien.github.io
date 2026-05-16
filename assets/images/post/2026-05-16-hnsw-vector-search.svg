@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="660" viewBox="0 0 1120 660" role="img" aria-labelledby="title desc">
+  <title id="title">HNSW vector search graph</title>
+  <desc id="desc">A layered graph diagram showing how HNSW starts search on sparse upper layers and descends into denser lower layers.</desc>
+  <defs>
+    <marker id="arrow-cyan" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#22d3ee"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="660" rx="22" fill="#0f172a"/>
+  <rect x="54" y="48" width="1012" height="560" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">HNSW: a graph index for vector search</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Sparse upper layers guide the search. Dense lower layers refine the answer.</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="84" y="214" fill="#f8fafc" font-size="18" font-weight="700">Layer 2</text>
+    <text x="84" y="338" fill="#f8fafc" font-size="18" font-weight="700">Layer 1</text>
+    <text x="84" y="486" fill="#f8fafc" font-size="18" font-weight="700">Layer 0</text>
+    <text x="84" y="236" fill="#94a3b8" font-size="14">fast jump</text>
+    <text x="84" y="360" fill="#94a3b8" font-size="14">narrow region</text>
+    <text x="84" y="508" fill="#94a3b8" font-size="14">candidate search</text>
+  </g>
+
+  <g stroke="#334155" stroke-width="3" fill="none">
+    <line x1="206" y1="220" x2="944" y2="220"/>
+    <line x1="206" y1="344" x2="944" y2="344"/>
+    <line x1="206" y1="492" x2="944" y2="492"/>
+  </g>
+
+  <g stroke-width="3" fill="none" opacity="0.94">
+    <path d="M326 220 C432 184, 558 184, 672 220" stroke="#64748b"/>
+    <path d="M672 220 C754 190, 836 190, 918 220" stroke="#64748b"/>
+
+    <path d="M276 344 C360 308, 452 308, 542 344" stroke="#64748b"/>
+    <path d="M542 344 C626 306, 744 306, 828 344" stroke="#64748b"/>
+    <path d="M276 344 C448 396, 648 396, 828 344" stroke="#64748b"/>
+
+    <path d="M226 492 C300 438, 398 438, 472 492" stroke="#64748b"/>
+    <path d="M350 492 C434 442, 536 442, 620 492" stroke="#64748b"/>
+    <path d="M472 492 C560 436, 680 436, 768 492" stroke="#64748b"/>
+    <path d="M620 492 C700 442, 820 442, 898 492" stroke="#64748b"/>
+    <path d="M226 492 C382 548, 612 548, 768 492" stroke="#64748b"/>
+    <path d="M350 492 C510 548, 732 548, 898 492" stroke="#64748b"/>
+  </g>
+
+  <g stroke="#22d3ee" stroke-width="5" fill="none" marker-end="url(#arrow-cyan)">
+    <path d="M214 174 C248 198, 282 211, 316 218"/>
+    <path d="M340 220 C426 215, 548 214, 654 220"/>
+    <path d="M674 230 C640 260, 604 294, 560 332"/>
+    <path d="M560 350 C590 386, 612 430, 620 472"/>
+    <path d="M636 492 C676 490, 716 490, 756 492"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    <circle cx="326" cy="220" r="31" fill="#bae6fd"/>
+    <text x="326" y="228" text-anchor="middle" fill="#082f49">A</text>
+    <circle cx="672" cy="220" r="31" fill="#bae6fd"/>
+    <text x="672" y="228" text-anchor="middle" fill="#082f49">B</text>
+    <circle cx="918" cy="220" r="31" fill="#e0f2fe"/>
+    <text x="918" y="228" text-anchor="middle" fill="#082f49">C</text>
+
+    <circle cx="276" cy="344" r="31" fill="#fef3c7"/>
+    <text x="276" y="352" text-anchor="middle" fill="#451a03">D</text>
+    <circle cx="542" cy="344" r="31" fill="#fef3c7"/>
+    <text x="542" y="352" text-anchor="middle" fill="#451a03">E</text>
+    <circle cx="828" cy="344" r="31" fill="#fef3c7"/>
+    <text x="828" y="352" text-anchor="middle" fill="#451a03">F</text>
+
+    <circle cx="226" cy="492" r="31" fill="#dcfce7"/>
+    <text x="226" y="500" text-anchor="middle" fill="#052e16">G</text>
+    <circle cx="350" cy="492" r="31" fill="#dcfce7"/>
+    <text x="350" y="500" text-anchor="middle" fill="#052e16">H</text>
+    <circle cx="472" cy="492" r="31" fill="#dcfce7"/>
+    <text x="472" y="500" text-anchor="middle" fill="#052e16">I</text>
+    <circle cx="620" cy="492" r="31" fill="#bbf7d0"/>
+    <text x="620" y="500" text-anchor="middle" fill="#052e16">J</text>
+    <circle cx="768" cy="492" r="31" fill="#86efac"/>
+    <text x="768" y="500" text-anchor="middle" fill="#052e16">K</text>
+    <circle cx="898" cy="492" r="31" fill="#dcfce7"/>
+    <text x="898" y="500" text-anchor="middle" fill="#052e16">L</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="190" cy="160" r="18" fill="#22d3ee"/>
+    <text x="218" y="166" fill="#e0f2fe" font-size="16">query starts near an entry point</text>
+    <rect x="690" y="548" width="302" height="42" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="710" y="575" fill="#cbd5e1" font-size="16">efSearch controls how many candidates survive</text>
+  </g>
+</svg>
