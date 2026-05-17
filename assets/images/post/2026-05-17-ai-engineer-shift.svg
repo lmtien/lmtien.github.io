@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Shift in software engineering work</title>
+  <desc id="desc">A timeline comparing software engineering work in 2026, 2030, and 2036.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="52" y="44" width="1016" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">The work shifts up the stack</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Code generation expands. Engineering judgment moves closer to product, architecture, and risk.</text>
+
+  <line x1="160" y1="242" x2="960" y2="242" stroke="#475569" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <circle cx="210" cy="242" r="22" fill="#bae6fd"/>
+    <circle cx="560" cy="242" r="22" fill="#fef3c7"/>
+    <circle cx="910" cy="242" r="22" fill="#dcfce7"/>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <text x="210" y="205" text-anchor="middle" fill="#f8fafc" font-size="26" font-weight="700">2026</text>
+    <text x="560" y="205" text-anchor="middle" fill="#f8fafc" font-size="26" font-weight="700">2030</text>
+    <text x="910" y="205" text-anchor="middle" fill="#f8fafc" font-size="26" font-weight="700">2036</text>
+
+    <g transform="translate(98 298)">
+      <rect width="250" height="170" rx="14" fill="#0b1120" stroke="#38bdf8"/>
+      <text x="24" y="42" fill="#e0f2fe" font-size="20" font-weight="700">Assistant era</text>
+      <text x="24" y="78" fill="#cbd5e1" font-size="15">Autocomplete</text>
+      <text x="24" y="106" fill="#cbd5e1" font-size="15">Chat-based debugging</text>
+      <text x="24" y="134" fill="#cbd5e1" font-size="15">Small refactors</text>
+    </g>
+
+    <g transform="translate(435 298)">
+      <rect width="250" height="170" rx="14" fill="#0b1120" stroke="#f59e0b"/>
+      <text x="24" y="42" fill="#fef3c7" font-size="20" font-weight="700">Agent era</text>
+      <text x="24" y="78" fill="#cbd5e1" font-size="15">Scoped tickets</text>
+      <text x="24" y="106" fill="#cbd5e1" font-size="15">Test generation</text>
+      <text x="24" y="134" fill="#cbd5e1" font-size="15">Migration helpers</text>
+    </g>
+
+    <g transform="translate(772 298)">
+      <rect width="250" height="170" rx="14" fill="#0b1120" stroke="#22c55e"/>
+      <text x="24" y="42" fill="#dcfce7" font-size="20" font-weight="700">System era</text>
+      <text x="24" y="78" fill="#cbd5e1" font-size="15">Multi-agent delivery</text>
+      <text x="24" y="106" fill="#cbd5e1" font-size="15">Human accountability</text>
+      <text x="24" y="134" fill="#cbd5e1" font-size="15">Product judgment</text>
+    </g>
+  </g>
+
+  <g transform="translate(158 520)" font-family="Arial, sans-serif">
+    <rect width="804" height="42" rx="9" fill="#172033" stroke="#334155"/>
+    <text x="402" y="27" text-anchor="middle" fill="#cbd5e1" font-size="16">The valuable engineer becomes less like a typist and more like a designer of reliable feedback systems.</text>
+  </g>
+</svg>

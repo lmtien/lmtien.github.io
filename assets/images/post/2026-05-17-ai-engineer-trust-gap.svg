@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">AI productivity and trust gap</title>
+  <desc id="desc">A chart showing that AI can increase task speed while trust and verification remain the bottleneck.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">The trust gap is the real bottleneck</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">AI can make code appear faster than teams can safely understand, verify, and operate it.</text>
+
+  <g font-family="Arial, sans-serif">
+    <line x1="170" y1="500" x2="948" y2="500" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="170" y1="500" x2="170" y2="178" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="920" y="535" fill="#94a3b8" font-size="15">AI adoption</text>
+    <text x="92" y="186" fill="#94a3b8" font-size="15">impact</text>
+  </g>
+
+  <g fill="none" stroke-width="7">
+    <path d="M190 456 C330 384, 470 318, 610 260 C742 206, 850 184, 930 176" stroke="#38bdf8"/>
+    <path d="M190 456 C338 444, 478 426, 610 392 C742 358, 852 310, 930 248" stroke="#f59e0b"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect x="650" y="158" width="306" height="70" rx="12" fill="#0b1120" stroke="#38bdf8"/>
+    <text x="672" y="188" fill="#e0f2fe" font-size="18" font-weight="700">More code can be produced</text>
+    <text x="672" y="212" fill="#cbd5e1" font-size="14">generation, refactoring, test drafts</text>
+
+    <rect x="658" y="274" width="306" height="90" rx="12" fill="#0b1120" stroke="#f59e0b"/>
+    <text x="680" y="304" fill="#fef3c7" font-size="18" font-weight="700">Trust grows more slowly</text>
+    <text x="680" y="328" fill="#cbd5e1" font-size="14">review, security, maintainability</text>
+    <text x="680" y="350" fill="#cbd5e1" font-size="14">and product correctness</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="520" cy="298" r="6" fill="#38bdf8"/>
+    <circle cx="520" cy="416" r="6" fill="#f59e0b"/>
+    <line x1="520" y1="298" x2="520" y2="416" stroke="#64748b" stroke-dasharray="6 6"/>
+    <text x="366" y="362" fill="#cbd5e1" font-size="17">verification debt</text>
+  </g>
+
+  <g transform="translate(170 548)" font-family="Arial, sans-serif">
+    <rect width="780" height="36" rx="9" fill="#172033" stroke="#334155"/>
+    <text x="390" y="24" text-anchor="middle" fill="#cbd5e1" font-size="16">The future belongs to teams that make verification as scalable as generation.</text>
+  </g>
+</svg>
