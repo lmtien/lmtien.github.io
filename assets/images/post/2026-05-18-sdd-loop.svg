@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Simple Spec-Driven Development loop</title>
+  <desc id="desc">A simple loop showing intent, spec, design, tasks, code, tests, and spec updates.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Spec-Driven Development, kept small</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Write the decision down before code. Then let code, tests, and the spec correct each other.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M333 195 C451 122, 640 122, 758 195"/>
+    <path d="M832 279 C880 382, 822 492, 698 520"/>
+    <path d="M585 548 C420 555, 282 462, 276 318"/>
+    <path d="M281 276 C287 239, 306 213, 333 195"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g>
+      <rect x="180" y="248" width="210" height="106" rx="14" fill="#f8fafc"/>
+      <text x="285" y="292" text-anchor="middle" fill="#0f172a" font-size="23" font-weight="700">Intent</text>
+      <text x="285" y="322" text-anchor="middle" fill="#475569" font-size="15">what problem?</text>
+    </g>
+    <g>
+      <rect x="442" y="158" width="230" height="106" rx="14" fill="#bae6fd"/>
+      <text x="557" y="202" text-anchor="middle" fill="#082f49" font-size="23" font-weight="700">Spec</text>
+      <text x="557" y="232" text-anchor="middle" fill="#075985" font-size="15">requirements and limits</text>
+    </g>
+    <g>
+      <rect x="728" y="248" width="214" height="106" rx="14" fill="#fef3c7"/>
+      <text x="835" y="292" text-anchor="middle" fill="#451a03" font-size="23" font-weight="700">Design</text>
+      <text x="835" y="322" text-anchor="middle" fill="#78350f" font-size="15">how it should fit</text>
+    </g>
+    <g>
+      <rect x="606" y="430" width="230" height="106" rx="14" fill="#dcfce7"/>
+      <text x="721" y="474" text-anchor="middle" fill="#052e16" font-size="23" font-weight="700">Tasks and code</text>
+      <text x="721" y="504" text-anchor="middle" fill="#166534" font-size="15">small steps only</text>
+    </g>
+    <g>
+      <rect x="292" y="430" width="230" height="106" rx="14" fill="#fbcfe8"/>
+      <text x="407" y="474" text-anchor="middle" fill="#500724" font-size="23" font-weight="700">Verify</text>
+      <text x="407" y="504" text-anchor="middle" fill="#831843" font-size="15">tests, review, update</text>
+    </g>
+  </g>
+
+  <g transform="translate(134 558)" font-family="Arial, sans-serif">
+    <rect width="852" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="426" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">The spec is not a museum document. It is the small contract the code must satisfy.</text>
+  </g>
+</svg>

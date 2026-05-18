@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">Small SDD example</title>
+  <desc id="desc">A small spec example for adding a reading progress bar to a blog post.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">A spec can fit on one screen</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Start small. If the spec is painful to read, it will be painful to maintain.</text>
+
+  <g transform="translate(104 176)" filter="url(#shadow)" font-family="Arial, sans-serif">
+    <rect width="912" height="360" rx="16" fill="#f8fafc"/>
+    <rect width="912" height="54" rx="16" fill="#bae6fd"/>
+    <text x="26" y="35" fill="#082f49" font-size="21" font-weight="700">spec.md - reading progress bar</text>
+
+    <text x="38" y="92" fill="#0f172a" font-size="19" font-weight="700">Goal</text>
+    <text x="38" y="122" fill="#334155" font-size="16">Show readers how far they are through a blog post.</text>
+
+    <text x="38" y="166" fill="#0f172a" font-size="19" font-weight="700">Requirements</text>
+    <text x="58" y="198" fill="#334155" font-size="16">WHEN the reader scrolls, THE SYSTEM SHALL update the progress bar.</text>
+    <text x="58" y="228" fill="#334155" font-size="16">WHEN the page loads, THE SYSTEM SHALL start progress at 0 percent.</text>
+    <text x="58" y="258" fill="#334155" font-size="16">WHERE the screen width is small, THE SYSTEM SHALL keep the bar visible.</text>
+
+    <text x="500" y="92" fill="#0f172a" font-size="19" font-weight="700">Non-goals</text>
+    <text x="500" y="122" fill="#334155" font-size="16">No analytics. No account tracking. No server changes.</text>
+
+    <text x="500" y="166" fill="#0f172a" font-size="19" font-weight="700">Verification</text>
+    <text x="520" y="198" fill="#334155" font-size="16">Manual scroll check on desktop and mobile.</text>
+    <text x="520" y="228" fill="#334155" font-size="16">Confirm the bar does not cover article text.</text>
+    <text x="520" y="258" fill="#334155" font-size="16">Build the site without warnings from the new change.</text>
+  </g>
+
+  <g transform="translate(164 560)" font-family="Arial, sans-serif">
+    <rect width="792" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="396" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">This is enough to guide a human, an AI agent, or a future version of yourself.</text>
+  </g>
+</svg>
