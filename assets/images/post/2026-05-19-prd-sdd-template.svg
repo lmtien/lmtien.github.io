@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">Simple PRD to SDD template</title>
+  <desc id="desc">A one-screen template for transforming a PRD into an SDD.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">A simple SDD template</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">One page is enough for many features. The trick is to make each line testable.</text>
+
+  <g transform="translate(104 176)" filter="url(#shadow)" font-family="Arial, sans-serif">
+    <rect width="912" height="366" rx="16" fill="#f8fafc"/>
+    <rect width="912" height="54" rx="16" fill="#bae6fd"/>
+    <text x="26" y="35" fill="#082f49" font-size="21" font-weight="700">feature-sdd.md</text>
+
+    <text x="38" y="92" fill="#0f172a" font-size="19" font-weight="700">From PRD</text>
+    <text x="58" y="124" fill="#334155" font-size="16">Problem:</text>
+    <text x="58" y="154" fill="#334155" font-size="16">User:</text>
+    <text x="58" y="184" fill="#334155" font-size="16">Success metric:</text>
+    <text x="58" y="214" fill="#334155" font-size="16">Non-goals:</text>
+
+    <text x="358" y="92" fill="#0f172a" font-size="19" font-weight="700">Spec</text>
+    <text x="378" y="124" fill="#334155" font-size="16">Requirements:</text>
+    <text x="378" y="154" fill="#334155" font-size="16">Acceptance scenarios:</text>
+    <text x="378" y="184" fill="#334155" font-size="16">Edge cases:</text>
+    <text x="378" y="214" fill="#334155" font-size="16">Open questions:</text>
+
+    <text x="662" y="92" fill="#0f172a" font-size="19" font-weight="700">Build</text>
+    <text x="682" y="124" fill="#334155" font-size="16">Design:</text>
+    <text x="682" y="154" fill="#334155" font-size="16">API/data changes:</text>
+    <text x="682" y="184" fill="#334155" font-size="16">Tasks:</text>
+    <text x="682" y="214" fill="#334155" font-size="16">Verification:</text>
+
+    <rect x="38" y="256" width="836" height="70" rx="10" fill="#eef2ff" stroke="#c7d2fe"/>
+    <text x="58" y="286" fill="#312e81" font-size="16" font-weight="700">Review question</text>
+    <text x="58" y="312" fill="#4338ca" font-size="15">Can an engineer build this without guessing what the product means?</text>
+  </g>
+</svg>

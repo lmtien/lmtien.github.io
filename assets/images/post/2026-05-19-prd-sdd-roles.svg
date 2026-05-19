@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Roles in PRD to SDD</title>
+  <desc id="desc">A simple role map for product manager, business analyst, engineer, designer, and QA in a PRD to SDD workflow.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">BA may disappear as a title, not as work</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Someone still needs to discover, clarify, trace, and validate requirements.</text>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(128 208)">
+      <rect width="180" height="126" rx="14" fill="#bae6fd"/>
+      <text x="90" y="44" text-anchor="middle" fill="#082f49" font-size="22" font-weight="700">PM</text>
+      <text x="90" y="76" text-anchor="middle" fill="#075985" font-size="14">problem, value,</text>
+      <text x="90" y="98" text-anchor="middle" fill="#075985" font-size="14">priority</text>
+    </g>
+    <g transform="translate(352 208)">
+      <rect width="180" height="126" rx="14" fill="#fef3c7"/>
+      <text x="90" y="44" text-anchor="middle" fill="#451a03" font-size="22" font-weight="700">BA</text>
+      <text x="90" y="76" text-anchor="middle" fill="#78350f" font-size="14">elicitation, rules,</text>
+      <text x="90" y="98" text-anchor="middle" fill="#78350f" font-size="14">traceability</text>
+    </g>
+    <g transform="translate(576 208)">
+      <rect width="180" height="126" rx="14" fill="#dcfce7"/>
+      <text x="90" y="44" text-anchor="middle" fill="#052e16" font-size="22" font-weight="700">Engineer</text>
+      <text x="90" y="76" text-anchor="middle" fill="#166534" font-size="14">design, risks,</text>
+      <text x="90" y="98" text-anchor="middle" fill="#166534" font-size="14">implementation</text>
+    </g>
+    <g transform="translate(800 208)">
+      <rect width="180" height="126" rx="14" fill="#fbcfe8"/>
+      <text x="90" y="44" text-anchor="middle" fill="#500724" font-size="22" font-weight="700">QA</text>
+      <text x="90" y="76" text-anchor="middle" fill="#831843" font-size="14">acceptance, tests,</text>
+      <text x="90" y="98" text-anchor="middle" fill="#831843" font-size="14">regression</text>
+    </g>
+  </g>
+
+  <g transform="translate(184 418)" font-family="Arial, sans-serif">
+    <rect width="752" height="92" rx="14" fill="#0b1120" stroke="#334155"/>
+    <text x="376" y="36" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="700">Shared artifact: SDD</text>
+    <text x="376" y="64" text-anchor="middle" fill="#cbd5e1" font-size="16">requirements, design decisions, task breakdown, verification notes</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="3" fill="none">
+    <path d="M218 334 V418"/>
+    <path d="M442 334 V418"/>
+    <path d="M666 334 V418"/>
+    <path d="M890 334 V418"/>
+  </g>
+</svg>

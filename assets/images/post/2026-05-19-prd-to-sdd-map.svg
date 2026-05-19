@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">PRD to SDD map</title>
+  <desc id="desc">A visual map showing how a product requirements document becomes an SDD through requirements, design, tasks, and verification.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">From PRD to SDD</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Keep product intent on the left. Move toward buildable, testable decisions on the right.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M286 318 H408"/>
+    <path d="M576 318 H700"/>
+    <path d="M842 318 C902 318, 930 360, 930 410"/>
+    <path d="M930 478 C930 520, 875 540, 816 540"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g transform="translate(104 218)">
+      <rect width="220" height="200" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="48" rx="14" fill="#bae6fd"/>
+      <text x="24" y="32" fill="#082f49" font-size="20" font-weight="700">PRD</text>
+      <text x="24" y="82" fill="#334155" font-size="15">Problem</text>
+      <text x="24" y="112" fill="#334155" font-size="15">Users</text>
+      <text x="24" y="142" fill="#334155" font-size="15">Goals</text>
+      <text x="24" y="172" fill="#334155" font-size="15">Success metrics</text>
+    </g>
+    <g transform="translate(414 218)">
+      <rect width="220" height="200" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="48" rx="14" fill="#fef3c7"/>
+      <text x="24" y="32" fill="#451a03" font-size="20" font-weight="700">Spec</text>
+      <text x="24" y="82" fill="#334155" font-size="15">Requirements</text>
+      <text x="24" y="112" fill="#334155" font-size="15">Acceptance criteria</text>
+      <text x="24" y="142" fill="#334155" font-size="15">Non-goals</text>
+      <text x="24" y="172" fill="#334155" font-size="15">Open questions</text>
+    </g>
+    <g transform="translate(724 218)">
+      <rect width="220" height="200" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="48" rx="14" fill="#dcfce7"/>
+      <text x="24" y="32" fill="#052e16" font-size="20" font-weight="700">Design</text>
+      <text x="24" y="82" fill="#334155" font-size="15">Architecture</text>
+      <text x="24" y="112" fill="#334155" font-size="15">Data and APIs</text>
+      <text x="24" y="142" fill="#334155" font-size="15">Risks</text>
+      <text x="24" y="172" fill="#334155" font-size="15">Test strategy</text>
+    </g>
+  </g>
+
+  <g transform="translate(364 506)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="392" height="74" rx="14" fill="#0b1120" stroke="#334155"/>
+    <text x="196" y="32" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="700">tasks.md + implementation</text>
+    <text x="196" y="56" text-anchor="middle" fill="#cbd5e1" font-size="15">small vertical slices that trace back to the spec</text>
+  </g>
+</svg>
