@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">AI-era learning loop for software engineers</title>
+  <desc id="desc">A learning loop showing study, AI explanation, solo implementation, tests, review, and interview practice.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Learn with AI, then prove it without AI</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">The loop is simple: understand, build, verify, explain.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M336 190 C456 120, 650 120, 772 190"/>
+    <path d="M850 282 C884 392, 820 498, 700 520"/>
+    <path d="M570 550 C410 550, 282 466, 272 324"/>
+    <path d="M278 274 C288 234, 306 208, 336 190"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g>
+      <rect x="178" y="248" width="212" height="104" rx="14" fill="#f8fafc"/>
+      <text x="284" y="291" text-anchor="middle" fill="#0f172a" font-size="22" font-weight="700">Study</text>
+      <text x="284" y="321" text-anchor="middle" fill="#475569" font-size="15">docs, basics, examples</text>
+    </g>
+    <g>
+      <rect x="438" y="156" width="238" height="104" rx="14" fill="#bae6fd"/>
+      <text x="557" y="199" text-anchor="middle" fill="#082f49" font-size="22" font-weight="700">Ask AI</text>
+      <text x="557" y="229" text-anchor="middle" fill="#075985" font-size="15">explain, compare, quiz</text>
+    </g>
+    <g>
+      <rect x="730" y="248" width="218" height="104" rx="14" fill="#fef3c7"/>
+      <text x="839" y="291" text-anchor="middle" fill="#451a03" font-size="22" font-weight="700">Build solo</text>
+      <text x="839" y="321" text-anchor="middle" fill="#78350f" font-size="15">no autocomplete crutch</text>
+    </g>
+    <g>
+      <rect x="610" y="430" width="228" height="104" rx="14" fill="#dcfce7"/>
+      <text x="724" y="473" text-anchor="middle" fill="#052e16" font-size="22" font-weight="700">Verify</text>
+      <text x="724" y="503" text-anchor="middle" fill="#166534" font-size="15">tests and edge cases</text>
+    </g>
+    <g>
+      <rect x="292" y="430" width="228" height="104" rx="14" fill="#fbcfe8"/>
+      <text x="406" y="473" text-anchor="middle" fill="#500724" font-size="22" font-weight="700">Explain</text>
+      <text x="406" y="503" text-anchor="middle" fill="#831843" font-size="15">interview practice</text>
+    </g>
+  </g>
+
+  <g transform="translate(160 558)" font-family="Arial, sans-serif">
+    <rect width="800" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="400" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">If I cannot explain it without the tool, I have not learned it yet.</text>
+  </g>
+</svg>

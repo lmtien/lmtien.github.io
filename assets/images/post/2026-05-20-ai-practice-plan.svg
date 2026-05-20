@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">Four-week AI-era interview practice plan</title>
+  <desc id="desc">A simple four-week practice plan for learning and interviews in the AI era.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">A simple 4-week practice plan</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Use AI to learn faster, but keep some reps completely manual.</text>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(104 210)">
+      <rect width="220" height="240" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="50" rx="14" fill="#bae6fd"/>
+      <text x="24" y="32" fill="#082f49" font-size="20" font-weight="700">Week 1</text>
+      <text x="24" y="86" fill="#0f172a" font-size="18" font-weight="700">Basics</text>
+      <text x="24" y="122" fill="#334155" font-size="15">Arrays, maps, stacks</text>
+      <text x="24" y="150" fill="#334155" font-size="15">Big-O explanations</text>
+      <text x="24" y="178" fill="#334155" font-size="15">AI quizzes you</text>
+      <text x="24" y="206" fill="#334155" font-size="15">1 solo problem/day</text>
+    </g>
+    <g transform="translate(350 210)">
+      <rect width="220" height="240" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="50" rx="14" fill="#fef3c7"/>
+      <text x="24" y="32" fill="#451a03" font-size="20" font-weight="700">Week 2</text>
+      <text x="24" y="86" fill="#0f172a" font-size="18" font-weight="700">Debugging</text>
+      <text x="24" y="122" fill="#334155" font-size="15">Read existing code</text>
+      <text x="24" y="150" fill="#334155" font-size="15">Write tests first</text>
+      <text x="24" y="178" fill="#334155" font-size="15">Ask AI for edge cases</text>
+      <text x="24" y="206" fill="#334155" font-size="15">Fix without hints</text>
+    </g>
+    <g transform="translate(596 210)">
+      <rect width="220" height="240" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="50" rx="14" fill="#dcfce7"/>
+      <text x="24" y="32" fill="#052e16" font-size="20" font-weight="700">Week 3</text>
+      <text x="24" y="86" fill="#0f172a" font-size="18" font-weight="700">System design</text>
+      <text x="24" y="122" fill="#334155" font-size="15">APIs and data model</text>
+      <text x="24" y="150" fill="#334155" font-size="15">Failure modes</text>
+      <text x="24" y="178" fill="#334155" font-size="15">Latency and cost</text>
+      <text x="24" y="206" fill="#334155" font-size="15">Explain trade-offs</text>
+    </g>
+    <g transform="translate(842 210)">
+      <rect width="220" height="240" rx="14" fill="#f8fafc"/>
+      <rect width="220" height="50" rx="14" fill="#fbcfe8"/>
+      <text x="24" y="32" fill="#500724" font-size="20" font-weight="700">Week 4</text>
+      <text x="24" y="86" fill="#0f172a" font-size="18" font-weight="700">Mock interview</text>
+      <text x="24" y="122" fill="#334155" font-size="15">Ask AI to interview</text>
+      <text x="24" y="150" fill="#334155" font-size="15">Then redo manually</text>
+      <text x="24" y="178" fill="#334155" font-size="15">Record explanations</text>
+      <text x="24" y="206" fill="#334155" font-size="15">Review mistakes</text>
+    </g>
+  </g>
+
+  <g transform="translate(162 548)" font-family="Arial, sans-serif">
+    <rect width="796" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="398" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">The rule: AI can coach practice, but the final rep should belong to you.</text>
+  </g>
+</svg>
