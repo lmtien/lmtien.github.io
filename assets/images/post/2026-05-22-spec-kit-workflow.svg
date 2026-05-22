@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Spec Kit workflow</title>
+  <desc id="desc">A visual workflow for Spec Kit from constitution to specification, clarification, plan, tasks, analysis, and implementation.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Spec Kit: not one prompt, a workflow</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Move from product intent to implementation through visible artifacts.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M254 248 H386"/>
+    <path d="M534 248 H666"/>
+    <path d="M814 248 H894 C934 248 954 270 954 310 V352"/>
+    <path d="M866 414 H734"/>
+    <path d="M586 414 H454"/>
+    <path d="M306 414 H224 C184 414 164 392 164 354 V312"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g transform="translate(104 196)">
+      <rect width="180" height="104" rx="14" fill="#f8fafc"/>
+      <text x="90" y="43" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="700">Constitution</text>
+      <text x="90" y="73" text-anchor="middle" fill="#475569" font-size="14">team rules</text>
+    </g>
+    <g transform="translate(394 196)">
+      <rect width="180" height="104" rx="14" fill="#bae6fd"/>
+      <text x="90" y="43" text-anchor="middle" fill="#082f49" font-size="21" font-weight="700">Specify</text>
+      <text x="90" y="73" text-anchor="middle" fill="#075985" font-size="14">what and why</text>
+    </g>
+    <g transform="translate(674 196)">
+      <rect width="180" height="104" rx="14" fill="#fef3c7"/>
+      <text x="90" y="43" text-anchor="middle" fill="#451a03" font-size="21" font-weight="700">Clarify</text>
+      <text x="90" y="73" text-anchor="middle" fill="#78350f" font-size="14">remove ambiguity</text>
+    </g>
+    <g transform="translate(866 362)">
+      <rect width="180" height="104" rx="14" fill="#ddd6fe"/>
+      <text x="90" y="43" text-anchor="middle" fill="#312e81" font-size="21" font-weight="700">Checklist</text>
+      <text x="90" y="73" text-anchor="middle" fill="#4338ca" font-size="14">quality gate</text>
+    </g>
+    <g transform="translate(584 362)">
+      <rect width="180" height="104" rx="14" fill="#dcfce7"/>
+      <text x="90" y="43" text-anchor="middle" fill="#052e16" font-size="21" font-weight="700">Plan</text>
+      <text x="90" y="73" text-anchor="middle" fill="#166534" font-size="14">tech choices</text>
+    </g>
+    <g transform="translate(304 362)">
+      <rect width="180" height="104" rx="14" fill="#fbcfe8"/>
+      <text x="90" y="43" text-anchor="middle" fill="#500724" font-size="21" font-weight="700">Tasks</text>
+      <text x="90" y="73" text-anchor="middle" fill="#831843" font-size="14">small steps</text>
+    </g>
+    <g transform="translate(104 362)">
+      <rect width="180" height="104" rx="14" fill="#bbf7d0"/>
+      <text x="90" y="43" text-anchor="middle" fill="#052e16" font-size="21" font-weight="700">Analyze</text>
+      <text x="90" y="73" text-anchor="middle" fill="#166534" font-size="14">consistency</text>
+    </g>
+  </g>
+
+  <g transform="translate(254 532)" font-family="Arial, sans-serif">
+    <rect width="612" height="42" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="306" y="27" text-anchor="middle" fill="#cbd5e1" font-size="16">Only then: implement with the agent, while the artifacts stay reviewable.</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">Small Spec Kit example</title>
+  <desc id="desc">A one-screen example for using Spec Kit to build a reading progress bar on a blog.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">A small practical example</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Use Spec Kit for a feature that has behavior, edge cases, and verification.</text>
+
+  <g transform="translate(104 176)" filter="url(#shadow)" font-family="Arial, sans-serif">
+    <rect width="912" height="370" rx="16" fill="#f8fafc"/>
+    <rect width="912" height="54" rx="16" fill="#bae6fd"/>
+    <text x="26" y="35" fill="#082f49" font-size="21" font-weight="700">Feature: reading progress bar</text>
+
+    <text x="42" y="98" fill="#0f172a" font-size="19" font-weight="700">/speckit.specify</text>
+    <text x="62" y="128" fill="#334155" font-size="16">Readers should see progress while reading long posts.</text>
+    <text x="62" y="154" fill="#334155" font-size="16">No tracking. No backend change. Must work on mobile.</text>
+
+    <text x="42" y="202" fill="#0f172a" font-size="19" font-weight="700">/speckit.plan</text>
+    <text x="62" y="232" fill="#334155" font-size="16">Jekyll site. Vanilla JavaScript. Existing CSS style.</text>
+    <text x="62" y="258" fill="#334155" font-size="16">Avoid dependencies. Keep the bar out of article text.</text>
+
+    <text x="508" y="98" fill="#0f172a" font-size="19" font-weight="700">/speckit.tasks</text>
+    <text x="528" y="128" fill="#334155" font-size="16">1. Add markup</text>
+    <text x="528" y="154" fill="#334155" font-size="16">2. Add CSS</text>
+    <text x="528" y="180" fill="#334155" font-size="16">3. Add scroll calculation</text>
+    <text x="528" y="206" fill="#334155" font-size="16">4. Test long and short posts</text>
+
+    <rect x="508" y="248" width="330" height="74" rx="10" fill="#ecfdf5" stroke="#bbf7d0"/>
+    <text x="528" y="278" fill="#052e16" font-size="16" font-weight="700">Human review</text>
+    <text x="528" y="304" fill="#166534" font-size="15">Does this match the blog style and UX?</text>
+  </g>
+
+  <g transform="translate(172 564)" font-family="Arial, sans-serif">
+    <rect width="776" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="388" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">Small feature, visible artifacts, less guessing.</text>
+  </g>
+</svg>
