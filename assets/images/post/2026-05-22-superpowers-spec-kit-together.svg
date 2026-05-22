@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">Using Superpowers and Spec Kit together</title>
+  <desc id="desc">A combined workflow where Spec Kit creates specification artifacts and Superpowers executes with TDD, subagents, and review.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">A practical combined flow</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Let Spec Kit define the work. Let Superpowers enforce the engineering habits.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M318 306 H450"/>
+    <path d="M670 306 H802"/>
+    <path d="M560 398 V468"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(128 226)">
+      <rect width="220" height="160" rx="16" fill="#bae6fd"/>
+      <text x="110" y="42" text-anchor="middle" fill="#082f49" font-size="22" font-weight="700">Spec Kit</text>
+      <text x="110" y="76" text-anchor="middle" fill="#075985" font-size="15">specify</text>
+      <text x="110" y="104" text-anchor="middle" fill="#075985" font-size="15">clarify</text>
+      <text x="110" y="132" text-anchor="middle" fill="#075985" font-size="15">plan and tasks</text>
+    </g>
+    <g transform="translate(450 226)">
+      <rect width="220" height="160" rx="16" fill="#f8fafc"/>
+      <text x="110" y="42" text-anchor="middle" fill="#0f172a" font-size="22" font-weight="700">Human gate</text>
+      <text x="110" y="76" text-anchor="middle" fill="#475569" font-size="15">read artifacts</text>
+      <text x="110" y="104" text-anchor="middle" fill="#475569" font-size="15">choose one plan</text>
+      <text x="110" y="132" text-anchor="middle" fill="#475569" font-size="15">approve scope</text>
+    </g>
+    <g transform="translate(772 226)">
+      <rect width="220" height="160" rx="16" fill="#dcfce7"/>
+      <text x="110" y="42" text-anchor="middle" fill="#052e16" font-size="22" font-weight="700">Superpowers</text>
+      <text x="110" y="76" text-anchor="middle" fill="#166534" font-size="15">worktree</text>
+      <text x="110" y="104" text-anchor="middle" fill="#166534" font-size="15">TDD</text>
+      <text x="110" y="132" text-anchor="middle" fill="#166534" font-size="15">review and finish</text>
+    </g>
+  </g>
+
+  <g transform="translate(322 468)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="476" height="70" rx="14" fill="#0b1120" stroke="#334155"/>
+    <text x="238" y="30" text-anchor="middle" fill="#f8fafc" font-size="20" font-weight="700">Important rule</text>
+    <text x="238" y="54" text-anchor="middle" fill="#cbd5e1" font-size="15">Do not let both tools create competing task lists.</text>
+  </g>
+</svg>
