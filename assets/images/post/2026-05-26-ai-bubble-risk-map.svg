@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">AI bubble risk map</title>
+  <desc id="desc">A two-axis map showing AI hype risk and practical value.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="650" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="558" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Not every AI project has the same risk</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">I try to judge AI by value proof, not by how futuristic it sounds.</text>
+
+  <g font-family="Arial, sans-serif">
+    <line x1="184" y1="500" x2="956" y2="500" stroke="#475569" stroke-width="3"/>
+    <line x1="184" y1="500" x2="184" y2="176" stroke="#475569" stroke-width="3"/>
+    <text x="812" y="536" fill="#94a3b8" font-size="16">measured value</text>
+    <text x="92" y="184" fill="#94a3b8" font-size="16">hype pressure</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(246 214)">
+      <rect width="260" height="104" rx="14" fill="#fbcfe8"/>
+      <text x="130" y="42" text-anchor="middle" fill="#500724" font-size="20" font-weight="700">Danger zone</text>
+      <text x="130" y="70" text-anchor="middle" fill="#831843" font-size="14">big claim, no proof</text>
+    </g>
+    <g transform="translate(642 214)">
+      <rect width="260" height="104" rx="14" fill="#fef3c7"/>
+      <text x="130" y="42" text-anchor="middle" fill="#451a03" font-size="20" font-weight="700">Expensive bet</text>
+      <text x="130" y="70" text-anchor="middle" fill="#78350f" font-size="14">real use, high cost</text>
+    </g>
+    <g transform="translate(246 386)">
+      <rect width="260" height="104" rx="14" fill="#bae6fd"/>
+      <text x="130" y="42" text-anchor="middle" fill="#082f49" font-size="20" font-weight="700">Experiment</text>
+      <text x="130" y="70" text-anchor="middle" fill="#075985" font-size="14">small test, low risk</text>
+    </g>
+    <g transform="translate(642 386)">
+      <rect width="260" height="104" rx="14" fill="#dcfce7"/>
+      <text x="130" y="42" text-anchor="middle" fill="#052e16" font-size="20" font-weight="700">Keep building</text>
+      <text x="130" y="70" text-anchor="middle" fill="#166534" font-size="14">clear value, measured</text>
+    </g>
+  </g>
+
+  <g transform="translate(218 558)" font-family="Arial, sans-serif">
+    <rect width="684" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="342" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">The question is not "AI or no AI?" It is "which quadrant is this project in?"</text>
+  </g>
+</svg>
