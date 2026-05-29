@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">NocoDB cloud deployment</title>
+  <desc id="desc">A simple cloud deployment diagram for NocoDB using a container service, managed PostgreSQL, object storage, and Redis.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">A simple cloud shape</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Run the app as a container. Put state in managed services.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M260 318 H420"/>
+    <path d="M700 318 H838"/>
+    <path d="M560 398 V468"/>
+    <path d="M560 238 V180"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(104 256)">
+      <rect width="200" height="124" rx="14" fill="#bae6fd"/>
+      <text x="100" y="44" text-anchor="middle" fill="#082f49" font-size="22" font-weight="700">Users</text>
+      <text x="100" y="74" text-anchor="middle" fill="#075985" font-size="14">browser / API</text>
+    </g>
+    <g transform="translate(420 220)">
+      <rect width="280" height="196" rx="18" fill="#f8fafc"/>
+      <text x="140" y="48" text-anchor="middle" fill="#0f172a" font-size="24" font-weight="700">NocoDB container</text>
+      <text x="140" y="86" text-anchor="middle" fill="#475569" font-size="15">AWS ECS Fargate</text>
+      <text x="140" y="114" text-anchor="middle" fill="#475569" font-size="15">or GCP Cloud Run</text>
+      <text x="140" y="150" text-anchor="middle" fill="#475569" font-size="15">env: NC_DB, JWT secret</text>
+    </g>
+    <g transform="translate(838 188)">
+      <rect width="210" height="104" rx="14" fill="#dcfce7"/>
+      <text x="105" y="40" text-anchor="middle" fill="#052e16" font-size="21" font-weight="700">PostgreSQL</text>
+      <text x="105" y="68" text-anchor="middle" fill="#166534" font-size="14">RDS / Cloud SQL</text>
+    </g>
+    <g transform="translate(838 342)">
+      <rect width="210" height="104" rx="14" fill="#fef3c7"/>
+      <text x="105" y="40" text-anchor="middle" fill="#451a03" font-size="21" font-weight="700">Storage</text>
+      <text x="105" y="68" text-anchor="middle" fill="#78350f" font-size="14">S3 / GCS / Minio</text>
+    </g>
+    <g transform="translate(455 468)">
+      <rect width="210" height="86" rx="14" fill="#fbcfe8"/>
+      <text x="105" y="36" text-anchor="middle" fill="#500724" font-size="21" font-weight="700">Redis</text>
+      <text x="105" y="62" text-anchor="middle" fill="#831843" font-size="14">cache / worker support</text>
+    </g>
+  </g>
+</svg>

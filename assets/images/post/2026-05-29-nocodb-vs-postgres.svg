@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">NocoDB versus PostgreSQL</title>
+  <desc id="desc">A comparison diagram showing when PostgreSQL is the engine and when NocoDB is the collaborative application layer.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">NocoDB vs PostgreSQL</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">They are not enemies. They solve different layers of the same problem.</text>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(126 202)">
+      <rect width="388" height="294" rx="18" fill="#f8fafc"/>
+      <rect width="388" height="58" rx="18" fill="#bae6fd"/>
+      <text x="28" y="38" fill="#082f49" font-size="24" font-weight="700">PostgreSQL</text>
+      <text x="28" y="96" fill="#0f172a" font-size="20" font-weight="700">Use when you need:</text>
+      <text x="28" y="136" fill="#334155" font-size="16">- database engine and SQL</text>
+      <text x="28" y="166" fill="#334155" font-size="16">- transactions and constraints</text>
+      <text x="28" y="196" fill="#334155" font-size="16">- performance tuning</text>
+      <text x="28" y="226" fill="#334155" font-size="16">- app-specific backend logic</text>
+      <text x="28" y="256" fill="#334155" font-size="16">- full control over schema</text>
+    </g>
+    <g transform="translate(606 202)">
+      <rect width="388" height="294" rx="18" fill="#f8fafc"/>
+      <rect width="388" height="58" rx="18" fill="#dcfce7"/>
+      <text x="28" y="38" fill="#052e16" font-size="24" font-weight="700">NocoDB</text>
+      <text x="28" y="96" fill="#0f172a" font-size="20" font-weight="700">Use when you need:</text>
+      <text x="28" y="136" fill="#334155" font-size="16">- spreadsheet-like editing</text>
+      <text x="28" y="166" fill="#334155" font-size="16">- forms, views, filters</text>
+      <text x="28" y="196" fill="#334155" font-size="16">- role-based collaboration</text>
+      <text x="28" y="226" fill="#334155" font-size="16">- quick internal tools</text>
+      <text x="28" y="256" fill="#334155" font-size="16">- REST API without much glue</text>
+    </g>
+  </g>
+
+  <g transform="translate(282 548)" font-family="Arial, sans-serif">
+    <rect width="556" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="278" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">Best combo for many teams: PostgreSQL underneath, NocoDB on top.</text>
+  </g>
+</svg>
