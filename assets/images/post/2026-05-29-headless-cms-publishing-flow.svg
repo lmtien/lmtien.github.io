@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">Simple headless CMS publishing flow</title>
+  <desc id="desc">A simple flow from content model to content entry, preview, webhook, cache revalidation, and published page.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfaf7; }
+      .step { fill: #ffffff; stroke: #24323f; stroke-width: 2; }
+      .green { fill: #e8f6ef; }
+      .yellow { fill: #fff4d6; }
+      .blue { fill: #eaf0ff; }
+      .rose { fill: #fff0f3; }
+      .text { font-family: Arial, sans-serif; fill: #17202a; }
+      .title { font-size: 26px; font-weight: 700; }
+      .label { font-size: 17px; font-weight: 700; }
+      .small { font-size: 13px; fill: #475569; }
+      .arrow { stroke: #24323f; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#24323f"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="900" height="440" rx="18"/>
+  <text class="text title" x="48" y="54">A practical publishing flow</text>
+
+  <rect class="step green" x="48" y="126" width="134" height="134" rx="14"/>
+  <text class="text label" x="76" y="172">Model</text>
+  <text class="text small" x="73" y="203">Article fields,</text>
+  <text class="text small" x="78" y="224">slug, SEO</text>
+
+  <rect class="step yellow" x="222" y="126" width="134" height="134" rx="14"/>
+  <text class="text label" x="257" y="172">Entry</text>
+  <text class="text small" x="244" y="203">Writer adds</text>
+  <text class="text small" x="252" y="224">content</text>
+
+  <rect class="step blue" x="396" y="126" width="134" height="134" rx="14"/>
+  <text class="text label" x="427" y="172">Preview</text>
+  <text class="text small" x="421" y="203">Frontend renders</text>
+  <text class="text small" x="430" y="224">draft data</text>
+
+  <rect class="step rose" x="570" y="126" width="134" height="134" rx="14"/>
+  <text class="text label" x="603" y="172">Publish</text>
+  <text class="text small" x="596" y="203">Webhook hits</text>
+  <text class="text small" x="593" y="224">revalidate API</text>
+
+  <rect class="step green" x="744" y="126" width="108" height="134" rx="14"/>
+  <text class="text label" x="775" y="172">Live</text>
+  <text class="text small" x="766" y="203">Fresh page</text>
+  <text class="text small" x="774" y="224">or app</text>
+
+  <path class="arrow" d="M182 193 L217 193"/>
+  <path class="arrow" d="M356 193 L391 193"/>
+  <path class="arrow" d="M530 193 L565 193"/>
+  <path class="arrow" d="M704 193 L739 193"/>
+
+  <text class="text small" x="64" y="330">This is the workflow I would start with: model one content type, publish one page, then add preview and webhooks.</text>
+</svg>
