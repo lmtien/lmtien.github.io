@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Paperclip control plane</title>
+  <desc id="desc">A diagram showing Paperclip as a control plane between goals, governance, tasks, budgets, and multiple AI agents.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="640" rx="22" fill="#0f172a"/>
+  <rect x="54" y="44" width="1012" height="548" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Paperclip is a control plane for agents</text>
+  <text x="84" y="134" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">Goals, tasks, budgets, approvals, and agent runs live in one place.</text>
+
+  <g fill="none" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M290 316 H410"/>
+    <path d="M708 316 H828"/>
+    <path d="M560 246 V190"/>
+    <path d="M560 386 V448"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(112 246)">
+      <rect width="210" height="140" rx="14" fill="#bae6fd"/>
+      <text x="105" y="44" text-anchor="middle" fill="#082f49" font-size="22" font-weight="700">Company goal</text>
+      <text x="105" y="78" text-anchor="middle" fill="#075985" font-size="14">mission, project,</text>
+      <text x="105" y="102" text-anchor="middle" fill="#075985" font-size="14">priority</text>
+    </g>
+    <g transform="translate(410 218)">
+      <rect width="300" height="196" rx="18" fill="#f8fafc"/>
+      <text x="150" y="44" text-anchor="middle" fill="#0f172a" font-size="24" font-weight="700">Paperclip</text>
+      <text x="150" y="82" text-anchor="middle" fill="#475569" font-size="15">tasks, org chart,</text>
+      <text x="150" y="108" text-anchor="middle" fill="#475569" font-size="15">heartbeats, budgets,</text>
+      <text x="150" y="134" text-anchor="middle" fill="#475569" font-size="15">approvals, audit log</text>
+    </g>
+    <g transform="translate(828 160)">
+      <rect width="210" height="96" rx="14" fill="#dcfce7"/>
+      <text x="105" y="38" text-anchor="middle" fill="#052e16" font-size="21" font-weight="700">Codex</text>
+      <text x="105" y="66" text-anchor="middle" fill="#166534" font-size="14">coding agent</text>
+    </g>
+    <g transform="translate(828 282)">
+      <rect width="210" height="96" rx="14" fill="#fef3c7"/>
+      <text x="105" y="38" text-anchor="middle" fill="#451a03" font-size="21" font-weight="700">Claude</text>
+      <text x="105" y="66" text-anchor="middle" fill="#78350f" font-size="14">research agent</text>
+    </g>
+    <g transform="translate(828 404)">
+      <rect width="210" height="96" rx="14" fill="#fbcfe8"/>
+      <text x="105" y="38" text-anchor="middle" fill="#500724" font-size="21" font-weight="700">HTTP bot</text>
+      <text x="105" y="66" text-anchor="middle" fill="#831843" font-size="14">external worker</text>
+    </g>
+  </g>
+
+  <g transform="translate(374 548)" font-family="Arial, sans-serif">
+    <rect width="372" height="38" rx="9" fill="#0b1120" stroke="#334155"/>
+    <text x="186" y="25" text-anchor="middle" fill="#cbd5e1" font-size="16">Bring your own agents. Manage the work.</text>
+  </g>
+</svg>
