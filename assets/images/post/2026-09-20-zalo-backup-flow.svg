@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Reading a Zalo Desktop V2 backup</title>
+  <desc id="desc">An authorized local session provides UIN. SHA-256 of UIN derives the AES key; zie plus its first 13 characters derives the IV. Verify a decrypted TAR header, decrypt the full file, inspect and extract, then read messages and local media. All examples use invented data.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#aeb9c2"/></marker></defs>
+  <rect width="1000" height="700" rx="8" fill="#171b20"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="62" fill="#f1f5f7" font-size="29" font-weight="700">A backup is only useful when you can read it</text>
+    <text x="48" y="94" fill="#adb8c2" font-size="18">Zalo Desktop V2 observed on macOS | Synthetic examples only</text>
+    <rect x="48" y="129" width="420" height="112" rx="6" fill="#233a33" stroke="#62bf99"/>
+    <text x="70" y="163" fill="#91debb" font-size="17" font-weight="700">AUTHORIZED LOCAL SESSION</text>
+    <text x="70" y="194" fill="#f1f5f7" font-size="23">Internal UIN</text>
+    <text x="70" y="219" fill="#c8d3d9" font-size="17">Not the phone number or numeric user ID</text>
+    <path d="M468 185H514" stroke="#aeb9c2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="530" y="129" width="422" height="112" rx="6" fill="#242c35" stroke="#8493a1"/>
+    <text x="552" y="164" fill="#f1f5f7" font-size="20">Key = SHA-256(UIN as UTF-8)</text>
+    <text x="552" y="199" fill="#f1f5f7" font-size="20">IV = UTF-8("zie" + UIN[0:13])</text>
+    <text x="552" y="223" fill="#adb8c2" font-size="16">Keep both private</text>
+    <path d="M741 241V269" stroke="#aeb9c2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="48" y="284" width="904" height="96" rx="6" fill="#3b3423" stroke="#cfb46b"/>
+    <text x="70" y="320" fill="#efce79" font-size="20" font-weight="700">1  Verify the first 512 decrypted bytes</text>
+    <text x="70" y="352" fill="#e5e8e9" font-size="19">TAR magic + header checksum. Wrong result? Stop and check the key or format.</text>
+    <path d="M500 380V407" stroke="#aeb9c2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="48" y="422" width="904" height="84" rx="6" fill="#242c35" stroke="#8493a1"/>
+    <text x="70" y="457" fill="#f1f5f7" font-size="21" font-weight="700">2  .zl.zip  →  AES-256-CBC stream  →  recovered.tar</text>
+    <text x="70" y="485" fill="#c8d3d9" font-size="18">Read the complete file. Validate padding. Publish output only after success.</text>
+    <path d="M500 506V533" stroke="#aeb9c2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="48" y="548" width="904" height="84" rx="6" fill="#233a33" stroke="#62bf99"/>
+    <text x="70" y="583" fill="#f1f5f7" font-size="21" font-weight="700">3  Inspect paths  →  Extract  →  JSON Lines + local media</text>
+    <text x="70" y="611" fill="#c8d3d9" font-size="18">Search records, identify the conversation, build an offline viewer.</text>
+    <text x="48" y="672" fill="#adb8c2" font-size="17">Decryption cannot recover messages or media that were never included in the backup.</text>
+  </g>
+</svg>
