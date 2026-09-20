@@ -5,6 +5,8 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
 
 # Site Settings
+url: "https://imtien.com"
+baseurl: ""
 locale: "en-US"
 title: "I'm Tien"
 description: "Tien Le's personal blog which shares all learning journey, ideas, thoughts, engineering, business, how-to etc."
