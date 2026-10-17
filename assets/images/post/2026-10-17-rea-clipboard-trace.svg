@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">A small Electron clipboard investigation</title>
+  <desc id="desc">In the original demo fixture, renderer.js calls desktop.copy. preload.js invokes demo:copy over IPC. main.js handles the channel and calls clipboard.writeText. This diagram describes source structure, not an observed runtime event.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#67e8f9" stroke-width="1.5"/></marker></defs>
+  <rect width="1200" height="650" rx="24" fill="#0b1120"/>
+  <g font-family="Arial, sans-serif">
+    <text x="60" y="74" font-size="36" font-weight="700" fill="#f8fafc">Where does the Copy button lead?</text>
+    <text x="60" y="114" font-size="21" fill="#94a3b8">An original, synthetic fixture with one literal IPC channel: demo:copy</text>
+    <g fill="#172033" stroke="#475569"><rect x="60" y="177" width="326" height="225" rx="18"/><rect x="437" y="177" width="326" height="225" rx="18"/><rect x="814" y="177" width="326" height="225" rx="18"/></g>
+    <g font-size="17" font-weight="700"><text x="84" y="212" fill="#7dd3fc">01 / RENDERER</text><text x="461" y="212" fill="#c4b5fd">02 / PRELOAD</text><text x="838" y="212" fill="#a7f3d0">03 / MAIN PROCESS</text></g>
+    <g font-size="25" font-weight="700" fill="#f8fafc"><text x="84" y="254">renderer.js</text><text x="461" y="254">preload.js</text><text x="838" y="254">main.js</text></g>
+    <g font-family="monospace" font-size="19" fill="#e2e8f0"><text x="84" y="307">desktop.copy(text)</text><text x="461" y="307">ipcRenderer.invoke</text><text x="461" y="337">('demo:copy', text)</text><text x="838" y="307">ipcMain.handle</text><text x="838" y="337">('demo:copy', ...)</text></g>
+    <g font-size="18" fill="#94a3b8"><text x="84" y="376">Button click handler</text><text x="461" y="376">Exposed via contextBridge</text><text x="838" y="376">Registered channel handler</text></g>
+    <path d="M391 289 H430" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M769 289 H807" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M977 411 V455" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="814" y="471" width="326" height="83" rx="15" fill="#10362f" stroke="#34d399"/>
+    <text x="977" y="520" text-anchor="middle" font-family="monospace" font-size="21" fill="#d1fae5">clipboard.writeText</text>
+    <text x="60" y="491" font-size="23" font-weight="700" fill="#f8fafc">One feature. Three files.</text>
+    <text x="60" y="528" font-size="20" fill="#cbd5e1">Use the channel name to connect the pieces.</text>
+    <text x="60" y="605" font-size="19" fill="#fcd34d">Source structure is evidence. A changed clipboard still needs a runtime check.</text>
+  </g>
+</svg>

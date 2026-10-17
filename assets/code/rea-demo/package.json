@@ -1,0 +1,7 @@
+{
+  "name": "rea-clipboard-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Synthetic Electron source fixture for static analysis; no dependencies required.",
+  "main": "main.js"
+}

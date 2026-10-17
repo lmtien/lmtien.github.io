@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Read a finding at the level its evidence supports</title>
+  <desc id="desc">A source observation can show a literal channel. A static inference can connect an invoke to a unique handler. Runtime verification must separately check whether the action actually works in the selected application and environment.</desc>
+  <rect width="1200" height="470" rx="24" fill="#0b1120"/>
+  <g font-family="Arial, sans-serif">
+    <text x="60" y="72" font-size="35" font-weight="700" fill="#f8fafc">What did the evidence actually establish?</text>
+    <g fill="#172033" stroke="#475569"><rect x="60" y="126" width="340" height="230" rx="18"/><rect x="430" y="126" width="340" height="230" rx="18"/><rect x="800" y="126" width="340" height="230" rx="18"/></g>
+    <g font-size="22" font-weight="700"><text x="85" y="170" fill="#7dd3fc">SOURCE OBSERVATION</text><text x="455" y="170" fill="#c4b5fd">STATIC INFERENCE</text><text x="825" y="170" fill="#a7f3d0">RUNTIME CHECK</text></g>
+    <g font-size="22" fill="#f8fafc"><text x="85" y="224">The literal demo:copy</text><text x="85" y="256">appears at these locations.</text><text x="455" y="224">An invoke and a unique</text><text x="455" y="256">handler share the channel.</text><text x="825" y="224">Click, paste, and compare</text><text x="825" y="256">with the expected text.</text></g>
+    <g font-size="18" fill="#94a3b8"><text x="85" y="320">Check the files and ranges.</text><text x="455" y="320">A candidate execution path.</text><text x="825" y="320">Verify the selected build.</text></g>
+    <text x="60" y="415" font-size="21" fill="#fcd34d">Keep unresolved behavior as an open question.</text>
+  </g>
+</svg>

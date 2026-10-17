@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">How REA connects an agent to application evidence</title>
+  <desc id="desc">Workflow instructions guide the agent. The agent calls REA through MCP. REA reads a local target and returns findings with evidence and limitations. Native analysis needs an additional provider.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0 8 4 0 8" fill="none" stroke="#67e8f9" stroke-width="1.5"/></marker></defs>
+  <rect width="1200" height="620" rx="24" fill="#0b1120"/>
+  <g font-family="Arial, sans-serif">
+    <text x="60" y="72" font-size="36" font-weight="700" fill="#f8fafc">Ask a smaller question. Follow the evidence.</text>
+    <text x="60" y="113" font-size="21" fill="#94a3b8">REA = analysis tools + an agent investigation workflow</text>
+    <rect x="60" y="168" width="275" height="84" rx="16" fill="#242343" stroke="#a78bfa"/>
+    <text x="84" y="201" font-size="21" font-weight="700" fill="#ddd6fe">Skill / instructions</text>
+    <text x="84" y="230" font-size="18" fill="#cbd5e1">How to investigate</text>
+    <path d="M198 256 V290" fill="none" stroke="#67e8f9" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="60" y="304" width="275" height="134" rx="16" fill="#172033" stroke="#64748b"/>
+    <text x="84" y="349" font-size="25" font-weight="700" fill="#f8fafc">Your agent</text>
+    <text x="84" y="386" font-size="19" fill="#cbd5e1">Ask, inspect, explain</text>
+    <text x="84" y="414" font-size="19" fill="#cbd5e1">Write and test new code</text>
+    <path d="M351 371 H432" fill="none" stroke="#67e8f9" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="390" y="346" text-anchor="middle" font-size="18" fill="#67e8f9">MCP</text>
+    <rect x="450" y="304" width="270" height="134" rx="16" fill="#0e343c" stroke="#22d3ee"/>
+    <text x="475" y="349" font-size="25" font-weight="700" fill="#ecfeff">REA</text>
+    <text x="475" y="386" font-size="19" fill="#cbd5e1">Local analysis tools</text>
+    <text x="475" y="414" font-size="19" fill="#cbd5e1">CLI works here too</text>
+    <path d="M736 371 H814" fill="none" stroke="#67e8f9" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <rect x="835" y="304" width="305" height="134" rx="16" fill="#172033" stroke="#64748b"/>
+    <text x="860" y="349" font-size="25" font-weight="700" fill="#f8fafc">Local target</text>
+    <text x="860" y="386" font-size="19" fill="#cbd5e1">JS directory / ASAR</text>
+    <text x="860" y="414" font-size="19" fill="#cbd5e1">Native binary + provider</text>
+    <rect x="60" y="488" width="1080" height="78" rx="14" fill="#111c30"/>
+    <text x="88" y="522" font-size="20" font-weight="700" fill="#a7f3d0">Results return with evidence and limitations.</text>
+    <text x="88" y="549" font-size="18" fill="#94a3b8">Local analysis does not change your agent provider's data policy.</text>
+  </g>
+</svg>
