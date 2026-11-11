@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-labelledby="title desc">
+  <title id="title">An 80 percent win rate can still produce a loss</title>
+  <desc id="desc">Invented fixed-dollar example with 100 completed trades and no compounding. Eighty wins of 10 dollars earn 800 dollars. Twenty losses of 60 dollars lose 1200 dollars. One dollar in costs per completed trade adds 100 dollars of costs. Net result is a 500 dollar loss.</desc>
+  <rect width="1200" height="670" rx="24" fill="#0b1120"/>
+  <g font-family="Arial, sans-serif">
+    <text x="50" y="70" fill="#f8fafc" font-size="38" font-weight="700">80 wins. A $500 loss.</text>
+    <text x="50" y="112" fill="#94a3b8" font-size="21">100 invented completed trades / fixed dollar outcomes / no compounding</text>
+    <text x="50" y="166" fill="#cbd5e1" font-size="18">Dollar contribution to total profit or loss; bars share one scale.</text>
+    <path d="M805 195 V552" stroke="#94a3b8" stroke-width="2"/>
+    <text x="805" y="190" fill="#94a3b8" font-size="17" text-anchor="middle">$0</text>
+    <g font-size="22" font-weight="700" fill="#f8fafc"><text x="50" y="240">80 wins × $10</text><text x="50" y="330">20 losses × $60</text><text x="50" y="420">100 trades × $1 cost</text><text x="50" y="520">NET RESULT</text></g>
+    <rect x="805" y="208" width="240" height="48" rx="7" fill="#34d399"/>
+    <rect x="445" y="298" width="360" height="48" rx="7" fill="#fb7185"/>
+    <rect x="775" y="388" width="30" height="48" rx="5" fill="#fbbf24"/>
+    <rect x="655" y="488" width="150" height="48" rx="7" fill="#fb7185"/>
+    <g font-size="24" font-weight="700"><text x="1060" y="241" fill="#a7f3d0">+$800</text><text x="816" y="331" fill="#fda4af">−$1,200</text><text x="816" y="421" fill="#fcd34d">−$100</text><text x="816" y="521" fill="#fda4af">−$500</text></g>
+    <path d="M50 465 H1150" stroke="#334155"/>
+    <rect x="50" y="574" width="1100" height="61" rx="12" fill="#172033"/>
+    <text x="75" y="612" fill="#cbd5e1" font-size="21">Check payoff size, costs, and drawdown alongside accuracy.</text>
+  </g>
+</svg>

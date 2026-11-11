@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Time order matters in trading experiments</title>
+  <desc id="desc">Train on earlier data, tune on later validation data, and evaluate on an untouched final period. Use gaps or purging for overlapping prediction horizons. For the illustrative moving-average rule, calculate the signal after a daily close and execute at the next session's open.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#67e8f9" stroke-width="1.5"/></marker></defs>
+  <rect width="1200" height="630" rx="24" fill="#0b1120"/>
+  <g font-family="Arial, sans-serif">
+    <text x="50" y="70" fill="#f8fafc" font-size="35" font-weight="700">Keep future information out of the decision</text>
+    <text x="50" y="112" fill="#94a3b8" font-size="21">A simple chronological evaluation for a learned model</text>
+    <path d="M60 155 H1140" stroke="#67e8f9" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="50" y="190" width="330" height="178" rx="16" fill="#132d43" stroke="#38bdf8"/>
+    <rect x="435" y="190" width="330" height="178" rx="16" fill="#282340" stroke="#a78bfa"/>
+    <rect x="820" y="190" width="330" height="178" rx="16" fill="#10362f" stroke="#34d399"/>
+    <g font-size="17" font-weight="700"><text x="75" y="226" fill="#7dd3fc">EARLIER DATA</text><text x="460" y="226" fill="#c4b5fd">LATER DATA</text><text x="845" y="226" fill="#a7f3d0">FINAL HOLDOUT</text></g>
+    <g font-size="27" font-weight="700" fill="#f8fafc"><text x="75" y="275">Train</text><text x="460" y="275">Validate</text><text x="845" y="275">Evaluate</text></g>
+    <g font-size="20" fill="#cbd5e1"><text x="75" y="316">Fit model + preprocessing</text><text x="75" y="346">using this period only.</text><text x="460" y="316">Choose parameters</text><text x="460" y="346">before the final test.</text><text x="845" y="316">Keep this period out</text><text x="845" y="346">of model selection.</text></g>
+    <text x="50" y="411" fill="#fcd34d" font-size="20">Use gaps / purging when prediction labels overlap split boundaries.</text>
+    <path d="M50 448 H1150" stroke="#334155"/>
+    <rect x="50" y="481" width="487" height="100" rx="14" fill="#172033" stroke="#475569"/>
+    <rect x="663" y="481" width="487" height="100" rx="14" fill="#172033" stroke="#475569"/>
+    <text x="73" y="522" fill="#f8fafc" font-size="24" font-weight="700">After today's close</text>
+    <text x="73" y="557" fill="#cbd5e1" font-size="20">Calculate the moving-average signal.</text>
+    <text x="686" y="522" fill="#f8fafc" font-size="24" font-weight="700">Next session's open</text>
+    <text x="686" y="557" fill="#cbd5e1" font-size="20">Execute the change with assumed costs.</text>
+    <path d="M551 531 H648" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="50" y="611" fill="#94a3b8" font-size="18">Example execution convention; real fills can differ from the opening price.</text>
+  </g>
+</svg>

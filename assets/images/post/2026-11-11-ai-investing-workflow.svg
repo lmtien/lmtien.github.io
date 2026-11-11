@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">A practical AI investment research workflow</title>
+  <desc id="desc">Dated issuer documents go to an AI research assistant, then a source and calculation check, then human review. A separate trading experiment goes from a rule or model through limits enforced in ordinary code to paper orders and an audit log.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#67e8f9" stroke-width="1.5"/></marker></defs>
+  <rect width="1200" height="630" rx="24" fill="#0b1120"/>
+  <g font-family="Arial, sans-serif">
+    <text x="50" y="70" fill="#f8fafc" font-size="35" font-weight="700">From research to a reviewable decision</text>
+    <text x="50" y="112" fill="#94a3b8" font-size="21">Start with documents, a chat tool, and a spreadsheet.</text>
+    <g fill="#172033" stroke="#475569"><rect x="50" y="164" width="245" height="174" rx="16"/><rect x="335" y="164" width="245" height="174" rx="16"/><rect x="620" y="164" width="245" height="174" rx="16"/></g>
+    <rect x="905" y="164" width="245" height="174" rx="16" fill="#10362f" stroke="#34d399"/>
+    <g font-size="17" font-weight="700"><text x="72" y="200" fill="#7dd3fc">01 / SOURCES</text><text x="357" y="200" fill="#c4b5fd">02 / AI ASSISTANT</text><text x="642" y="200" fill="#fcd34d">03 / VERIFICATION</text><text x="927" y="200" fill="#a7f3d0">04 / HUMAN REVIEW</text></g>
+    <g font-size="24" font-weight="700" fill="#f8fafc"><text x="72" y="246">Dated documents</text><text x="357" y="246">Compare + explain</text><text x="642" y="246">Open the source</text><text x="927" y="246">Assess the fit</text></g>
+    <g font-size="19" fill="#cbd5e1"><text x="72" y="285">Issuer factsheets</text><text x="72" y="314">Company filings</text><text x="357" y="285">Facts and trade-offs</text><text x="357" y="314">Missing information</text><text x="642" y="285">Recalculate figures</text><text x="642" y="314">Check freshness</text><text x="927" y="285">Goals and risk capacity</text><text x="927" y="314">Questions for an adviser</text></g>
+    <path d="M302 251 H327" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/><path d="M587 251 H612" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/><path d="M872 251 H897" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M50 388 H1150" stroke="#334155"/>
+    <text x="50" y="429" fill="#94a3b8" font-size="20">OPTIONAL TRADING EXPERIMENT</text>
+    <g fill="#172033" stroke="#475569"><rect x="50" y="456" width="325" height="106" rx="14"/><rect x="438" y="456" width="325" height="106" rx="14"/><rect x="825" y="456" width="325" height="106" rx="14"/></g>
+    <g fill="#f8fafc" font-size="23" font-weight="700"><text x="73" y="497">Rule or model</text><text x="461" y="497">Limits in ordinary code</text><text x="848" y="497">Paper order + audit log</text></g>
+    <g fill="#94a3b8" font-size="19"><text x="73" y="535">Versioned and tested</text><text x="461" y="535">Data, symbols, position size</text><text x="848" y="535">Simulated money</text></g>
+    <path d="M386 509 H426" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/><path d="M774 509 H814" stroke="#67e8f9" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="50" y="602" fill="#fcd34d" font-size="19">Keep research access and permission to place orders separate.</text>
+  </g>
+</svg>
