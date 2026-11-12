@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="707.17875pt" height="331.191687pt" viewBox="0 0 707.17875 331.191687" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-12T16:46:22.715506</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 331.191687
+L 707.17875 331.191687
+L 707.17875 0
+L -0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 52.71875 251.768
+L 346.45875 251.768
+L 346.45875 100.008
+L 52.71875 100.008
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 52.71875 165.048
+L 346.45875 165.048
+" clip-path="url(#p884131487c)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #bbc5ce; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 66.070568 251.768
+L 166.209205 251.768
+L 166.209205 165.048
+L 66.070568 165.048
+z
+" clip-path="url(#p884131487c)" style="fill: #829db4"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 232.968295 251.768
+L 333.106932 251.768
+L 333.106932 123.4224
+L 232.968295 123.4224
+z
+" clip-path="url(#p884131487c)" style="fill: #287d89"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2">
+      <defs>
+       <path id="m68dbd2a32b" d="M 0 0
+L 0 3.5
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m68dbd2a32b" x="116.139886" y="251.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="116.139886" y="267.886125" transform="rotate(-0 116.139886 267.886125)">No AI control</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m68dbd2a32b" x="283.037614" y="251.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="283.037614" y="267.886125" transform="rotate(-0 283.037614 267.886125)">GPT Base</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m46e161a643" d="M 0 0
+L -3.5 0
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m46e161a643" x="52.71875" y="251.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.71875" y="256.327062" transform="rotate(-0 45.71875 256.327062)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m46e161a643" x="52.71875" y="208.408" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.71875" y="212.967062" transform="rotate(-0 45.71875 212.967062)">50</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m46e161a643" x="52.71875" y="165.048" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.71875" y="169.607062" transform="rotate(-0 45.71875 169.607062)">100</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m46e161a643" x="52.71875" y="121.688" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.71875" y="126.247062" transform="rotate(-0 45.71875 126.247062)">150</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="16.318125" y="175.888" transform="rotate(-90 16.318125 175.888)">Relative score index (own control = 100)</text>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 52.71875 251.768
+L 52.71875 100.008
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 52.71875 251.768
+L 346.45875 251.768
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="116.139886" y="161.5792" transform="rotate(-0 116.139886 161.5792)">100</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="283.037614" y="119.9536" transform="rotate(-0 283.037614 119.9536)">148</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="199.58875" y="82.008" transform="rotate(-0 199.58875 82.008)">Practice: AI available</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 406.23875 251.768
+L 699.97875 251.768
+L 699.97875 100.008
+L 406.23875 100.008
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 406.23875 165.048
+L 699.97875 165.048
+" clip-path="url(#p5ca533207f)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #bbc5ce; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 419.590568 251.768
+L 519.729205 251.768
+L 519.729205 165.048
+L 419.590568 165.048
+z
+" clip-path="url(#p5ca533207f)" style="fill: #829db4"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 586.488295 251.768
+L 686.626932 251.768
+L 686.626932 179.7904
+L 586.488295 179.7904
+z
+" clip-path="url(#p5ca533207f)" style="fill: #287d89"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m68dbd2a32b" x="469.659886" y="251.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="469.659886" y="267.886125" transform="rotate(-0 469.659886 267.886125)">No AI control</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m68dbd2a32b" x="636.557614" y="251.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="636.557614" y="267.886125" transform="rotate(-0 636.557614 267.886125)">GPT Base</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m46e161a643" x="406.23875" y="251.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="399.23875" y="256.327062" transform="rotate(-0 399.23875 256.327062)">0</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m46e161a643" x="406.23875" y="208.408" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="399.23875" y="212.967062" transform="rotate(-0 399.23875 212.967062)">50</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m46e161a643" x="406.23875" y="165.048" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="399.23875" y="169.607062" transform="rotate(-0 399.23875 169.607062)">100</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m46e161a643" x="406.23875" y="121.688" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="399.23875" y="126.247062" transform="rotate(-0 399.23875 126.247062)">150</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="369.838125" y="175.888" transform="rotate(-90 369.838125 175.888)">Relative score index (own control = 100)</text>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 406.23875 251.768
+L 406.23875 100.008
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 406.23875 251.768
+L 699.97875 251.768
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="469.659886" y="161.5792" transform="rotate(-0 469.659886 161.5792)">100</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="636.557614" y="176.3216" transform="rotate(-0 636.557614 176.3216)">83</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="553.10875" y="82.008" transform="rotate(-0 553.10875 82.008)">Exam: AI removed</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="352.93875" y="18.597656" transform="rotate(-0 352.93875 18.597656)">Better assisted work can coexist with worse unaided performance</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #435666" transform="translate(28.93875 310.714187)">Original illustration of reported relative effects: Bastani et al., PNAS (2025).</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #435666" transform="translate(28.93875 321.912)">Each panel normalizes its own control to 100. Not raw grades; uncertainty intervals are not shown.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p884131487c">
+   <rect x="52.71875" y="100.008" width="293.74" height="151.76"/>
+  </clipPath>
+  <clipPath id="p5ca533207f">
+   <rect x="406.23875" y="100.008" width="293.74" height="151.76"/>
+  </clipPath>
+ </defs>
+</svg>
